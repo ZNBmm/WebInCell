@@ -38,7 +38,7 @@ WKNavigationDelegate>
 - (void)loadRequest {
     NSURL *url;
     if (NO) {
-        NSString *path = @"https://www.jianshu.com/p/63f65f2fc5ac";
+        NSString *path = @"https://www.jianshu.com/p/a20b1b46de89";
         url = [NSURL URLWithString:path];
     }else {
         NSString *localPath = [[NSBundle mainBundle] pathForResource:@"test.html" ofType:nil];
